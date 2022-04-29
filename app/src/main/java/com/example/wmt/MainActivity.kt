@@ -95,7 +95,8 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun setUpAction() {
-        binding.floatingActionButton.setOnClickListener{
-            startActivity(Intent(this,MainActivity2::class.java))
+        binding.floatingActionButton.setOnClickListener {
+            startActivity(Intent(this, MainActivity2::class.java))
         }
     }
+}
